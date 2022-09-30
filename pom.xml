@@ -19,12 +19,12 @@
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://3.17.37.130:8081/repository/maven-releases/</url>
+    <url>/var/lib/jenkins/artifacts/releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://3.17.37.130:8081/repository/maven-snapshots/</url>
+    <url>/var/lib/jenkins/artifacts/snapshots</url>
    </snapshotRepository>
 </distributionManagement>
   <dependencies>
