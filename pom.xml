@@ -18,14 +18,10 @@
 <distributionManagement>
   <repository>
     <id>internal.repo</id>
-    <!-- CHANGE HERE by your team nexus server -->
+  <name>Internal repo</name>
     <url>/file:///var/lib/jenkins/artifacts/</url>
   </repository>
-  <snapshotRepository>
-    <id>internal.repo</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>file:///var/lib/jenkins/artifacts/</url>
-   </snapshotRepository>
+  
 </distributionManagement>
   <dependencies>
     <dependency>
