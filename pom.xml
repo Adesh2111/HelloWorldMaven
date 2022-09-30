@@ -17,12 +17,12 @@
   
 <distributionManagement>
   <repository>
-    <id>releases</id>
+    <id>internal.repo</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>/file:///var/lib/jenkins/artifacts/</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>internal.repo</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>file:///var/lib/jenkins/artifacts/</url>
    </snapshotRepository>
